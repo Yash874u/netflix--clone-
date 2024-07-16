@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix-Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <img
+          width="93"
+          src="assets/img/Netflix-logo.png"
+          alt="this is Netflix logo img"
+        />
+        <div>
+          <button id="mybtn" class="btn">
+            <i class="fa-light fa-a" id="fa"></i> English
+          </button>
+          <button class="btn btn-red-sm">Sign In</button>
+        </div>
+      </nav>
+      <div class="header-content"> 
+        <h1>Unlimited movies, TV shows and more</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div> 
+          <input type="text" placeholder="Email Address" required>
+          <button class="btn red-btn">Get Started &gt;</button>
+      </div>
+    </div>
+
+    <div class="seperation"></div>
+
+    <!--feature tag starts-->
+
+    <div class="feature-first">
+      <div class="row">
+        <div class="text-col">
+          <h2>Enjoy on your TV</h2>
+          <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <div class="img-col"> 
+          <img src="assets/img/tv.png">
+          <video src="assets/video/4010131-uhd_4096_2160_25fps.mp4" autoplay loop ></video>
+        </div>
+      </div>
+    </div>
+
+    <div class="seperation-sec"></div>
+
+    <!--download tagis started-->
+
+    <div class="feature-sec">
+      <div class="row-rev">
+        <div class="text-col">
+          <h2>Download your shows to watch offline</h2>
+          <p>Save your favourites easily and always have something to watch.</p>
+        </div>
+        <div class="img-col"> 
+          <img src="assets/img/mobile-0819.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div class="seperation-sec"></div>
+
+    <!--common tag starts-->
+
+    <div class="feature-first">
+      <div class="row">
+        <div class="text-col">
+          <h2>Watch everywhere</h2>
+          <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <div class="img-col"> 
+          <img id="sec-tv" src="assets/img/device-pile-in.png">
+          <video id="video-sec" src="assets/video/2117248-hd_1920_1080_24fps.mp4" autoplay loop ></video>
+        </div>
+      </div>
+    </div>
+
+    <div class="seperation-sec"></div>
+
+<!--kid tag starts-->
+
+    <div class="feature-sec">
+      <div class="row-rev">
+        <div class="text-col">
+          <h2>Create profiles for kids</h2>
+          <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        </div>
+        <div class="img-col"> 
+          <img src="assets/img/kid.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="seperation-sec"></div>
+
+    <!--faq tag starts-->
+
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="box-1">
+        <span>What Is Netflix ?</span>
+        <i class="fa-thin fa-plus"></i>
+      </div>
+
+      <div class="box-2">
+        <span>How Much does Netflix Cost ?</span>
+        <i class="fa-thin fa-plus"></i>
+      </div>
+
+      <div class="box-3">
+        <span>Where can I watch ?</span>
+        <i class="fa-thin fa-plus"></i>
+      </div>
+
+      <div class="box-4">
+        <span>How do I cancle ?</span>
+        <i class="fa-thin fa-plus"></i>
+      </div>
+
+      <div class="box-5">
+        <span>what can i watch on Netflix ?</span>
+        <i class="fa-thin fa-plus"></i>
+      </div>
+
+      <div class="box-6">
+        <span>is Netflix is good for kid's ?</span>
+        <i class="fa-thin fa-plus"></i>
+      </div>
+    </section>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="bottum"> 
+      <input type="text" placeholder="Email Address" required>
+      <button class="btn red-btn">Get Started &gt;</button>
+    </div>
+    
+    <div class="seperation-sec"></div>
+    
+    <!--footer tag starts-->
+    
+    
+    <footer> 
+      <span id="span">Questions? Call 000-800-919-1694</span>
+      <div class="footer">
+      <div class="footer-items">
+        <a href="#" style="color: white;">faq</a>
+        <a href="#" style="color: white;">Investor Relations</a>
+        <a href="#" style="color: white;">Privacy</a>
+        <a href="#" style="color: white;">Speed Test</a>
+        <button id="mybtn" class="btn">
+          <i class="fa-light fa-a" id="fa"></i> English
+        </button>
+      </div>
+      
+      <div class="footer-items">
+        <a href="#" style="color: white;">Help Centre</a>
+        <a href="#" style="color: white;">Jobs</a>
+        <a href="#" style="color: white;">Cookie Preferences</a>
+        <a href="#" style="color: white;">Legal Notices</a>
+      </div>
+      
+      <div class="footer-items">
+        <a href="#" style="color: white;">Account</a>
+        <a href="#" style="color: white;">Ways to Watch</a>
+        <a href="#" style="color: white;">Corporate Information</a>
+        <a href="#" style="color: white;">Only on Netflix</a>
+      </div>
+
+      <div class="footer-items">
+        <a href="#" style="color: white;">Media Centre</a>
+        <a href="#" style="color: white;">Terms of Use</a>
+        <a href="#" style="color: white;">Contact Us</a>
+        
+      </div>
+    </div>
+    <div class="netflix">
+      <p>NETFLIX INDIA</p>
+    </div>
+    <div class="copy-write">
+      <h5>@Copy-write-Netflix.com</h5>
+    </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/c4a90c9778.js"crossorigin="anonymous"></script>
+  </body>
+</html>
